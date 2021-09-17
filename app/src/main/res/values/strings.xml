@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Blancas</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="empty" />
+    <string name="onboard_1_message">Choose from a broad range of 5,000+ products</string>
+    <string name="onboard_2_message">Get your order delivered within 30 minutes</string>
+    <string name="onboard_3_message">Select your preferred payment method between COD and card payments</string>
+    <string name="onboard_4_message">Earn rewards for every purchase and redeem them for discounts</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+</resources>
