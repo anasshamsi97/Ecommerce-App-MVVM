@@ -5,6 +5,7 @@ import android.graphics.BlendModeColorFilter
 import android.graphics.PorterDuff
 import android.os.Build
 import android.widget.ImageView
+import android.widget.RatingBar
 import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
@@ -35,4 +36,12 @@ fun setImage(
         .placeholder(circularProgressDrawable)
         .error(R.mipmap.ic_launcher)
         .into(view)
+}
+
+@BindingAdapter(value = ["rating"])
+fun setRating(
+    view: RatingBar,
+    rating: Double
+) {
+    view.rating = (rating * 10).toFloat()
 }

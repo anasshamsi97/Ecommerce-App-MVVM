@@ -53,23 +53,21 @@
                 android:id="@+id/rating_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleX="0.5"
-                android:layout_marginTop="@dimen/paddingTiny"
-                android:scaleY="0.5"
+                style="?android:attr/ratingBarStyleSmall"
+                app:rating="@{model.rating.rate}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/title_label" />
+                app:layout_constraintTop_toBottomOf="@id/title_label" />
 
             <TextView
                 android:id="@+id/price_label"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="@dimen/paddingHuge"
                 android:layout_height="wrap_content"
                 android:text="@{`$`+String.valueOf(model.price)}"
                 android:textAppearance="@style/Theme.EcommerceApp.TextView.Bold.Medium"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/title_label"
+                app:layout_constraintTop_toBottomOf="@id/rating_bar"
                 tools:text="78" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
