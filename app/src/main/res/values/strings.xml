@@ -11,4 +11,8 @@
     <string name="skip">Skip</string>
     <string name="next">Next</string>
     <string name="finish">Finish</string>
+    <string name="categories">Categories</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
 </resources>
