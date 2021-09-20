@@ -22,7 +22,7 @@
 This repository contains a sample ecommerce app that implements **MVVM** architecture using Hilt, Retrofit, Glide and Co-routines.
 #### The app has following packages:
 1. **model**: It contains all the data accessing and manipulating components.
-2. **di**: Dependency providing classes using Dagger2.
+2. **di**: Dependency providing classes using Hilt.
 3. **ui**: View classes along with their corresponding ViewModel.
 4. **network**: All the work related to network like retrofit instance creation and repositories as well lie in this package
 5. **utils**: Utility classes.
