@@ -1,4 +1,4 @@
-# Ecommerce App
+# Ecommerce Android App Using MVVM
 <p align="center">
  <img src="https://github.com/anasshamsi97/Ecommerce-App/blob/master/demo.gif" width="250">
  </p>
